@@ -32,5 +32,3 @@ for item in guessed_state:
     all_states.remove(item)
 states_to_learn = pandas.DataFrame(all_states)
 states_to_learn.to_csv("States to learn.csv")
-
-screen.exitonclick()
